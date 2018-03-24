@@ -1,0 +1,6 @@
+alpine:
+  image: cobers/alpine
+  container_name: alpine
+  restart: always
+  ports:
+    - 8585:6081
