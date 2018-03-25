@@ -3,8 +3,8 @@ ENV ALPINE_FRONTEND noninteractive
 
 
 RUN apk update && \
-    apk add openrc cron curl && \
-    apk add mariadb mariadb-client && \
+    apk add openrc curl \
+    mariadb mariadb-client
 
 #MYSQL CONFIGURATION
 #DB_DATA_PATH="/var/lib/mysql"
