@@ -1,6 +1,9 @@
-alpine:
-  image: cobers/alpine
-  container_name: alpine
-  restart: always
-  ports:
-    - 8585:6081
+version: '3'
+services:
+  alpine:
+    image: cobers/alpine
+    container_name: alpine
+    tty: true
+    restart: always
+    ports:
+      - 8585:6081
